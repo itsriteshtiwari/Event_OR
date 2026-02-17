@@ -13,7 +13,7 @@ EXCEL_FILE = "user_data.xlsx"
 def send_email_with_qr(email, qr_filename):
     msg = EmailMessage()
     msg["Subject"] = "Your QR Code"
-    msg["From"] = "query.some.com@gmail.com"
+    msg["From"] = "add your email"
     msg["To"] = email
     msg.set_content("Thank you for registering. Attached is your QR code.")
 
@@ -22,7 +22,7 @@ def send_email_with_qr(email, qr_filename):
         msg.add_attachment(qr_data, maintype="image", subtype="png", filename=qr_filename)
 
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
-        smtp.login("query.some.com@gmail.com", "ragw reyr ltrt zstn")
+        smtp.login("add your email", "gamil app code")
         smtp.send_message(msg)
 
 @app.route('/')

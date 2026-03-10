@@ -11,5 +11,11 @@ A lightweight, Flask-based event registration and ticketing application inspired
 - **Single-Use Verification:** Event organizers can scan the QR code to grant entry. The system marks the ticket as "used" to prevent multiple entries with the same QR code.
 - **Excel Database:** Stores all registration and validation data neatly in an Excel file (user_data.xlsx) for easy access and portability.
 
+## 🛠️ Tech Stack
+- **Backend:** Python, Flask
+- **Data Handling:** Pandas, Openpyxl (Excel read/write)
+- **QR Generation:** `qrcode` library
+- **Email Handling:** Built-in `smtplib` and `email.message`
+
 <img width="1046" height="668" alt="image" src="https://github.com/user-attachments/assets/33f4a201-4f30-4530-9786-7b8d36a9a818" />
 This how form looks like

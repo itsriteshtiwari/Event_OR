@@ -17,5 +17,29 @@ A lightweight, Flask-based event registration and ticketing application inspired
 - **QR Generation:** `qrcode` library
 - **Email Handling:** Built-in `smtplib` and `email.message`
 
+## ⚙️ Setup and Installation
+### 1. Clone the repository
+```
+[git clone] (https://github.com/itsriteshtiwari/qr-event.git)
+cd qr-event
+```
+### 2. Create a virtual environment
+```
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+```
+### 3. Install the required dependencies
+```
+pip install flask pandas qrcode openpyxl
+```
+### 4. Configure Email Credentials
+Update the `send_email_with_qr` function in `app.py` with your sender email and an App Password.
+### 5. Run the application
+```
+python app.py
+```
+
+# 📱 How It Works
+
 <img width="1046" height="668" alt="image" src="https://github.com/user-attachments/assets/33f4a201-4f30-4530-9786-7b8d36a9a818" />
 This how form looks like

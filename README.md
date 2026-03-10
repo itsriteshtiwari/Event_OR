@@ -44,8 +44,8 @@ python app.py
 2. **Receive Ticket:** The backend creates a new entry in `user_data.xlsx` with a unique UUID, generates a QR code linking to a validation URL (`/verify/<uuid>`), and emails it to the user.
 3. **Scan at Event:** At the event entrance, the organizer scans the QR code using any standard QR scanner (which opens the link on the local server/network).
 4. **Validation:** If valid and unused, the system grants access and marks the ticket as `used` in the Excel database.
-   -If already used, the system displays an "already scanned" warning.
-   -If invalid, the system rejects the entry.
+   - If already used, the system displays an "already scanned" warning.
+   - If invalid, the system rejects the entry.
 
 <img width="1046" height="668" alt="image" src="https://github.com/user-attachments/assets/33f4a201-4f30-4530-9786-7b8d36a9a818" />
 This how form looks like

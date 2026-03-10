@@ -20,7 +20,7 @@ A lightweight, Flask-based event registration and ticketing application inspired
 ## ⚙️ Setup and Installation
 ### 1. Clone the repository
 ```
-[git clone] (https://github.com/itsriteshtiwari/qr-event.git)
+git clone https://github.com/itsriteshtiwari/qr-event.git
 cd qr-event
 ```
 ### 2. Create a virtual environment
@@ -40,6 +40,6 @@ python app.py
 ```
 
 # 📱 How It Works
-
+1. **Register:** A user visits the home page and submits their details.
 <img width="1046" height="668" alt="image" src="https://github.com/user-attachments/assets/33f4a201-4f30-4530-9786-7b8d36a9a818" />
 This how form looks like
